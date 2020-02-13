@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iq_test">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".scoresPageActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity android:name=".chronometerActivity" />
+        <activity android:name=".scoreActivity" />
+        <activity android:name=".q5Activity" />
+        <activity android:name=".q2Activity" />
+        <activity android:name=".q3Activity" />
+        <activity android:name=".q4Activity" />
+        <activity android:name=".q1Activity" />
+        <activity android:name=".q6Activity" />
+        <activity android:name=".q7Activity" />
+        <activity android:name=".q8Activity" />
+        <activity android:name=".q9Activity" />
+        <activity android:name=".q10Activity" />
+        <activity android:name=".q11Activity" />
+        <activity android:name=".q12Activity" />
+        <activity android:name=".q13Activity" />
+        <activity android:name=".q14Activity" />
+        <activity android:name=".q15Activity" />
+        <activity android:name=".q16Activity" />
+        <activity android:name=".q17Activity" />
+        <activity android:name=".q18Activity" />
+        <activity android:name=".q19Activity" />
+        <activity android:name=".q20Activity" />
+        <activity android:name=".q21Activity" />
+        <activity android:name=".q22Activity" />
+        <activity android:name=".q23Activity" />
+        <activity android:name=".q24Activity" />
+        <activity android:name=".q25Activity" />
+        <activity android:name=".q26Activity" />
+        <activity android:name=".q27Activity" />
+        <activity android:name=".q28Activity" />
+        <activity android:name=".q29Activity" />
+        <activity android:name=".q30Activity" />
+        <activity android:name=".secondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
